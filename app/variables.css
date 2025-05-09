@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: "vazir";
+    src: url("./vazir-font-v16.1.0/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff")format("woff2"),
+        url("./vazir-font-v16.1.0/Vazir-Light.woff2")format("woff"),
+        url("./vazir-font-v16.1.0/Vazir-Medium.ttf")format("truetype");
+}
+
+body {
+    font-family: var(--ff-primary);
+    background: var( --clr-primary-1);
+    color: var(--clr-primary-5);
+    line-height: 1.5rem;
+    font-size: 0.875rem;
+    direction: rtl; 
+
+}

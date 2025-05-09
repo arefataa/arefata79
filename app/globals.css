@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .min-h-custom {
+        min-height: calc(100vh - 4.5rem);
+    }
+
+    @media (min-width: 988px) {
+        .min-g-colm {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .md-hidd { 
+            display: block;
+        }
+    }
+
+    .custom-transition {
+        transition: var(--transition);
+    }
+
+    .custom-tow {
+        transform: translate(-50%, -50%);
+    }
+}
